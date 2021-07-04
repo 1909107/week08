@@ -34,11 +34,11 @@ return count;
 void mayorQue(int a, int b){
 	
 	if(a > b){
-		printf("El primer string es el mas grande");
+		printf("La primer cadena es la  mas grande");
 	}else if(b > a){
-		printf("El segundo string es el mas grande");
+		printf("LA segunda cadena es la mas grande");
 	}else if (a == b){
-		printf("Los dos string son iguales");
+		printf("Las dos cadenas son iguales");
 	}
 	
 	
