@@ -23,7 +23,7 @@ Recuerda que existen diferentes tipos de datos en las funciones asi como en las 
 Almacenar en tu variable
 En este caso, queremos devolver un valor de tipo entero, por lo tanto tenemos que declarar nuestra funcion como entero
 y tenemos que devolverlo con la palabra reservada "return" seguido por la variable del tipo de la funcion que queremos devolver */
-int compare (char s[100]) {
+int compare (char s[100]); {
 int count, i;
 for (i = 0;s[i] != '\0';i++) {
 if (s[i] == ' ' && s[i+1] != ' ')
@@ -32,7 +32,7 @@ count++; }
 return count;
 }
 
-void mayorQue(int a, int b){
+void mayorQue(int a, int b); {
 	
 	if(a > b){
 		printf("La primer cadena es la  mas grande");
@@ -46,7 +46,7 @@ void mayorQue(int a, int b){
 }
 
 
-int main(void) {
+int main(void); {
 
 char cad1[100],cad2[100];
 int resultado1, resultado2;
