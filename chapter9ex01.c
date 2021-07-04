@@ -34,7 +34,7 @@ sscanf(line,"%[^\n]s", cad1);
 
 result = compare (cad1); /*En esta variable guardamos el dato que estamos devolviendo de la funcion "compare" y la guardamos en 
 en la variable result, recuerda que deben ser el mismo tipo de dato*/
-printf("The result is: %d",result+1);
+printf("El resultado es: %d",result+1);
 
 return 0;
 }
