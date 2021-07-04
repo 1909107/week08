@@ -8,7 +8,8 @@ char l[100];
 int count1, count2, i,j;
 printf("Ingrese la primera cadena:\n");
 fgets(line, sizeof(line), stdin);
-sscanf(line,"%[^\n]s", s);#include <stdio.h>
+sscanf(line,"%[^\n]s", s); 
+#include <stdio.h>
 #include <string.h>
 
 //Prototipo de la funcion "compare" 
@@ -22,7 +23,7 @@ Recuerda que existen diferentes tipos de datos en las funciones asi como en las 
 Almacenar en tu variable
 En este caso, queremos devolver un valor de tipo entero, por lo tanto tenemos que declarar nuestra funcion como entero
 y tenemos que devolverlo con la palabra reservada "return" seguido por la variable del tipo de la funcion que queremos devolver */
-int compare (char s[100]){
+int compare (char s[100]) {
 int count, i;
 for (i = 0;s[i] != '\0';i++) {
 if (s[i] == ' ' && s[i+1] != ' ')
