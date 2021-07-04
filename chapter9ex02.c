@@ -1,14 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-char line[100];
-int main()
-{
-char s[100];
-char l[100];
-int count1, count2, i,j;
-printf("Ingrese la primera cadena:\n");
-fgets(line, sizeof(line), stdin);
-sscanf(line,"%[^\n]s", s); 
+
 #include <stdio.h>
 #include <string.h>
 
@@ -23,7 +13,7 @@ Recuerda que existen diferentes tipos de datos en las funciones asi como en las 
 Almacenar en tu variable
 En este caso, queremos devolver un valor de tipo entero, por lo tanto tenemos que declarar nuestra funcion como entero
 y tenemos que devolverlo con la palabra reservada "return" seguido por la variable del tipo de la funcion que queremos devolver */
-int compare (char s[100]); {
+int compare (char s[100]){
 int count, i;
 for (i = 0;s[i] != '\0';i++) {
 if (s[i] == ' ' && s[i+1] != ' ')
@@ -32,21 +22,21 @@ count++; }
 return count;
 }
 
-void mayorQue(int a, int b); {
+void mayorQue(int a, int b){
 	
 	if(a > b){
-		printf("La primer cadena es la  mas grande");
+		printf("El primer string es el mas grande");
 	}else if(b > a){
-		printf("LA segunda cadena es la mas grande");
+		printf("El segundo string es el mas grande");
 	}else if (a == b){
-		printf("Las dos cadenas son iguales");
+		printf("Los dos string son iguales");
 	}
 	
 	
 }
 
 
-int main(void); {
+int main(void) {
 
 char cad1[100],cad2[100];
 int resultado1, resultado2;
@@ -65,25 +55,5 @@ printf("%d \n%d\n",resultado1,resultado2);
 
 mayorQue(resultado1,resultado2);
 
-return 0;
-}
-
-for (i = 0;s[i] != '\0';i++)
-{
-if (s[i] == ' ' && s[i+1] != ' ')
-count1++;
-}printf("Ingrese la segunda cadena:\n");
-fgets(line, sizeof(line), stdin);
-sscanf(line,"%[^\n]l", l);
-for (j = 0;l[j] != '\0';j++)
-{
-if (l[j] == ' ' && l[j+1] != ' ')
-count2++;
-}if(count1>count2){
-printf("la cadena uno es mayor que la dos");
-}
-else{
-printf("la cadena dos es mayor que la uno");
-}
 return 0;
 }
