@@ -1,3 +1,5 @@
+/* : Design a structure to store time and date. Write a function to find the difference between two times in minutes.
+*/
 #include<stdio.h>
 void function(chart1){
 struct time
