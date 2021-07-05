@@ -1,3 +1,5 @@
+/*Write a function that scans a character array for the character - and 
+replaces it with _.*/
 #include <stdio.h>
 void replace(char char_array[]) {
 	int i;
