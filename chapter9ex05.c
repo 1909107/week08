@@ -1,3 +1,5 @@
+/* : Write a function that returns the maximum value of an array of 
+numbers.*/
 #include <stdio.h>
 int largest(int arr[], int n)
 {
