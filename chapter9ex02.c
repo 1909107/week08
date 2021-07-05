@@ -1,6 +1,7 @@
+/*Write a function begins(string1,string2) that returns true if 
+string1 begins string2. Write a program to test the function. */
 #include <stdio.h>
 #include <string.h>
-
 int compare (char s[100]);
 void mayorQue(int a, int b);
 char line[100];
