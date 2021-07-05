@@ -1,3 +1,4 @@
+/*chapter 9 exercise that lets me know if a person is right for you or not */
 #include <stdio.h>
 #include <string.h>
 int compare (char s[100]);
