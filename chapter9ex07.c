@@ -31,6 +31,6 @@ printf("sal de ahi soldado");
 
 int main(){int steep1;
 funcion(steep1}
-return;
+return 0;
 }
 
