@@ -1,19 +1,31 @@
 #include <stdio.h>
 #include <string.h>
+int compare (char s[100]);
+void mayorQue(int a, int b);
 char line[100];
-int main()
-{
-char s[100];
-char l[100];
-int count1, count2, i,j;
-printf("ingresa tu nombre completo con espacios:\n");
-fgets(line, sizeof(line), stdin);
-sscanf(line,"%[^\n]s", s);
-for (i = 0;s[i] != '\0';i++)
-{
+int compare (char s[100]){
+int count, i;
+for (i = 0;s[i] != '\0';i++) {
 if (s[i] == ' ' && s[i+1] != ' ')
-count1++;
-}printf("Ingresa el nombre de la persona que amas con espacios:\n");
+count++; }
+
+return count;
+}
+
+void mayorQue(int a, int b){
+	
+	if(a > b){
+		printf("ingresa tu nombre completo con espacios");
+	}else if(b > a){
+		printf("Ingresa el nombre de la persona que amas con espacios");
+	}
+	
+}
+
+int main(void) {
+
+char cad1[100],cad2[100];
+
 fgets(line, sizeof(line), stdin);
 sscanf(line,"%[^\n]l", l);
 for (j = 0;l[j] != '\0';j++)
@@ -26,5 +38,8 @@ printf("esa persona es la indicada");
 else{
 printf("sal de ahi soldado");
 }
+return 0;
+mayorQue(resultado1,resultado2);
+
 return 0;
 }
